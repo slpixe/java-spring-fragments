@@ -16,7 +16,7 @@ public class PageController {
     @GetMapping("/about")
     public String about(Model model) {
         // Add attributes to the model if needed
-//        model.addAttribute("username", "JohnDoe"); // Mock username
+        model.addAttribute("company", "Bob company");
         return "about";  // This corresponds to src/main/resources/templates/about.html
     }
 

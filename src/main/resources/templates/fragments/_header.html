@@ -15,6 +15,7 @@
         </ul>
     </nav>
     <div><p>Welcome, <span th:text="${username}">User</span>!</p></div>
+    <div th:if="${company != null}"> <p>Company, <span th:text="${company}">company</span>!</p> </div>
 </header>
 </body>
 </html>
