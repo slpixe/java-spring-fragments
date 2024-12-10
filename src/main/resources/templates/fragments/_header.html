@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title th:fragment="header">title Fragment</title>
+</head>
+<body>
+<p th:fragment="header">Paragraph Fragment</p>
+<header>
+  <h1>My Application Header</h1>
+  <nav>
+    <ul>
+      <li><a th:href="@{/}">Home</a></li>
+      <li><a th:href="@{/about}">About</a></li>
+      <li><a th:href="@{/meow}">Meow</a></li>
+    </ul>
+  </nav>
+</header>
+</body>
+</html>
